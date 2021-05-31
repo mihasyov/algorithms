@@ -2,33 +2,33 @@
 
 ## Table of contents
 
-    1. [Two Sum](https://github.com/mihasyov/algorithms#Two-Sum)
-    2. [Reverse Integer](https://github.com/mihasyov/algorithms#Reverse-Integer)
-    3. [Palindrome Number](https://github.com/mihasyov/algorithms#Palindrome-Number)
-    4. [Roman To Integer](https://github.com/mihasyov/algorithms#Roman-To-Integer)
-    5. [Longest Common Prefix](https://github.com/mihasyov/algorithms#Longest-Common-Prefix)
-    6. [Valid Parentheses](https://github.com/mihasyov/algorithms#Valid-Parentheses)
-    7. [Merge Two Sorted Lists](https://github.com/mihasyov/algorithms#Merge-Two-Sorted-Lists)
-    8. [Remove Duplicates from Sorted Array](https://github.com/mihasyov/algorithms#Remove-Duplicates-from-Sorted-Array)
-    9. [Remove Element](https://github.com/mihasyov/algorithms#Remove-Element)
-    10. [Implement strStr](https://github.com/mihasyov/algorithms#Implement-strStr)
-    11. [Search Insert Position](https://github.com/mihasyov/algorithms#Search-Insert-Position)
-    12. [Maximum Subarray](https://github.com/mihasyov/algorithms#Maximum-Subarray)
-    13. [Length of Last Word](https://github.com/mihasyov/algorithms#Length-of-Last-Word)
-    14. [Plus One](https://github.com/mihasyov/algorithms#Plus-One)
-    15. [Climbing Stairs](https://github.com/mihasyov/algorithms#Climbing-Stairs)
-    16. [Merge Sorted Array](https://github.com/mihasyov/algorithms#Merge-Sorted-Array)
-    17. [Pascal's Triangle](https://github.com/mihasyov/algorithms#Pascal's-Triangle)
-    18. [Pascal's Triangle II](https://github.com/mihasyov/algorithms#Pascal's-Triangle-II)
-    19. [Best Time to Buy and Sell Stock](https://github.com/mihasyov/algorithms#Best-Time-to-Buy-and-Sell-Stock)
-    20. [Best Time to Buy and Sell Stock II](https://github.com/mihasyov/algorithms#Best-Time-to-Buy-and-Sell-Stock-II)
-    21. [Valid Palindrome](https://github.com/mihasyov/algorithms#Valid-Palindrome)
-    22. [Single Number](https://github.com/mihasyov/algorithms#Single-Number)
-    23. [Two Sum II](https://github.com/mihasyov/algorithms#Two-Sum-II)
-    24. [Majority Element](https://github.com/mihasyov/algorithms#Majority-Element)
-    25. [Factorial Trailing Zeroes](https://github.com/mihasyov/algorithms#Factorial-Trailing-Zeroes)
+1. [Two Sum](#Two-Sum)
+2. [Reverse Integer](#Reverse-Integer)
+3. [Palindrome Number](#Palindrome-Number)
+4. [Roman To Integer](#Roman-To-Integer)
+5. [Longest Common Prefix](#Longest-Common-Prefix)
+6. [Valid Parentheses](#Valid-Parentheses)
+7. [Merge Two Sorted Lists](#Merge-Two-Sorted-Lists)
+8. [Remove Duplicates from Sorted Array](#Remove-Duplicates-from-Sorted-Array)
+9. [Remove Element](#Remove-Element)
+10. [Implement strStr](#Implement-strStr)
+11. [Search Insert Position](#Search-Insert-Position)
+12. [Maximum Subarray](#Maximum-Subarray)
+13. [Length of Last Word](#Length-of-Last-Word)
+14. [Plus One](#Plus-One)
+15. [Climbing Stairs](#Climbing-Stairs)
+16. [Merge Sorted Array](#Merge-Sorted-Array)
+17. [Pascal's Triangle](#Pascal's-Triangle)
+18. [Pascal's Triangle II](#Pascal's-Triangle-II)
+19. [Best Time to Buy and Sell Stock](#Best-Time-to-Buy-and-Sell-Stock)
+20. [Best Time to Buy and Sell Stock II](#Best-Time-to-Buy-and-Sell-Stock-II)
+21. [Valid Palindrome](#Valid-Palindrome)
+22. [Single Number](#Single-Number)
+23. [Two Sum II](#Two-Sum-II)
+24. [Majority Element](#Majority-Element)
+25. [Factorial Trailing Zeroes](#Factorial-Trailing-Zeroes)
 
-## **Two Sum**
+## **Two Sum** <a name="Two-Sum"></a>
 
 Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
 
@@ -85,7 +85,7 @@ const twoSum = (nums, target) => {
 };
 ```
 
-## **Reverse Integer**
+## **Reverse Integer** <a name="Reverse-Integer"></a>
 
 Given a signed 32-bit integer x, return x with its digits reversed. If reversing x causes the value to go outside the signed 32-bit integer range [-231, 231 - 1], then return 0.
 
@@ -137,7 +137,7 @@ const reverse = (num) => {
 };
 ```
 
-## **Palindrome Number**
+## **Palindrome Number** <a name="Palindrome-Number"></a>
 
 Given an integer x, return true if x is palindrome integer.
 
@@ -205,7 +205,7 @@ const isPalindrome = (x) => {
 };
 ```
 
-## **Roman To Integer**
+## **Roman To Integer** <a name="Roman-To-Integer"></a>
 
 Roman numerals are represented by seven different symbols: I, V, X, L, C, D and M.
 
@@ -299,7 +299,7 @@ const romanTOInteger = (roman) => {
 };
 ```
 
-## **Longest Common Prefix**
+## **Longest Common Prefix** <a name="Longest-Common-Prefix"></a>
 
 Write a function to find the longest common prefix string amongst an array of strings.
 
@@ -359,7 +359,7 @@ const longestCommonPrefix_2 = (strs) => {
 };
 ```
 
-## **Valid Parentheses**
+## **Valid Parentheses** <a name="Valid-Parentheses"></a>
 
 Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
 
@@ -440,7 +440,7 @@ const isValid = (str) => {
 };
 ```
 
-## **Merge Two Sorted Lists**
+## **Merge Two Sorted Lists** <a name="Merge-Two-Sorted-Lists"></a>
 
 Merge two sorted linked lists and return it as a sorted list. The list should be made by splicing together the nodes of the first two lists.
 
@@ -506,7 +506,7 @@ const newMergeLists = (l1, l2) => {
 };
 ```
 
-## **Remove Duplicates from Sorted Array**
+## **Remove Duplicates from Sorted Array** <a name="Remove-Duplicates-from-Sorted-Array"></a>
 
 Given a sorted array nums, remove the duplicates in-place such that each element appears only once and returns the new length.
 
@@ -577,7 +577,7 @@ const removeDuplicates = (nums) => {
 };
 ```
 
-## **Remove Element**
+## **Remove Element** <a name="Remove-Element"></a>
 
 Given an array nums and a value val, remove all instances of that value in-place and return the new length.
 
@@ -659,7 +659,7 @@ const removeElem = (nums, val) => {
 };
 ```
 
-## **Implement strStr**
+## **Implement strStr** <a name="Implement-strStr"></a>
 
 Return the index of the first occurrence of needle in haystack, or -1 if needle is not part of haystack.
 
@@ -714,7 +714,7 @@ const strStr = (str, needle) => {
 };
 ```
 
-## **Search Insert Position**
+## **Search Insert Position** <a name="Search-Insert-Position"></a>
 
 Given a sorted array of distinct integers and a target value, return the index if the target is found. If not, return the index where it would be if it were inserted in order.
 
@@ -793,7 +793,7 @@ const searchPosition = (nums, target) => {
 };
 ```
 
-## **Maximum Subarray**
+## **Maximum Subarray** <a name="Maximum-Subarray"></a>
 
 Given an integer array nums, find the contiguous subarray (containing at least one number) which has the largest sum and return its sum.
 
@@ -874,7 +874,7 @@ const maxSubArr_4 = (arr) => {
 };
 ```
 
-## **Length of Last Word**
+## **Length of Last Word** <a name="Length-of-Last-Word"></a>
 
 Given a string s consists of some words separated by spaces, return the length of the last word in the string. If the last word does not exist, return 0.
 
@@ -927,7 +927,7 @@ const lengthOfLastWord_3 = (str) => {
 };
 ```
 
-## **Plus One**
+## **Plus One** <a name="Plus-One"></a>
 
 Given a non-empty array of decimal digits representing a non-negative integer, increment one to the integer.
 
@@ -977,7 +977,7 @@ const plusOne = (arr) => {
 };
 ```
 
-## **Climbing Stairs**
+## **Climbing Stairs** <a name="Climbing-Stairs"></a>
 
 You are climbing a staircase. It takes n steps to reach the top.
 
@@ -1032,7 +1032,7 @@ const climbStair = (n) => {
 };
 ```
 
-## **Merge Sorted Array**
+## **Merge Sorted Array** <a name="Merge-Sorted-Array"></a>
 
 You are given two integer arrays nums1 and nums2, sorted in non-decreasing order, and two integers m and n, representing the number of elements in nums1 and nums2 respectively.
 
@@ -1100,7 +1100,7 @@ const mergeArrs = (arr1, arr2) => {
 };
 ```
 
-## **Pascal's Triangle**
+## **Pascal's Triangle** <a name="Pascal's-Triangle"></a>
 
 Given an integer numRows, return the first numRows of Pascal's triangle.
 
@@ -1160,7 +1160,7 @@ const generate_2 = (rowsNum) => {
 };
 ```
 
-## **Pascal's Triangle II**
+## **Pascal's Triangle II** <a name="Pascal's-Triangle-II"></a>
 
 Given an integer rowIndex, return the rowIndexth (0-indexed) row of the Pascal's triangle.
 
@@ -1210,7 +1210,7 @@ const getRow = (rowIndex) => {
 };
 ```
 
-## **Best Time to Buy and Sell Stock**
+## **Best Time to Buy and Sell Stock** <a name="Best-Time-to-Buy-and-Sell-Stock"></a>
 
 You are given an array prices where prices[i] is the price of a given stock on the ith day.
 
@@ -1267,7 +1267,7 @@ const maxProfit_2 = (stocks) => {
 };
 ```
 
-## **Best Time to Buy and Sell Stock II**
+## **Best Time to Buy and Sell Stock II** <a name="Best-Time-to-Buy-and-Sell-Stock-II"></a>
 
 You are given an array prices where prices[i] is the price of a given stock on the ith day.
 
@@ -1336,7 +1336,7 @@ const maxMultipleProfit_2 = (stocks) => {
 };
 ```
 
-## **Valid Palindrome**
+## **Valid Palindrome** <a name="Valid-Palindrome"></a>
 
 Given a string s, determine if it is a palindrome, considering only alphanumeric characters and ignoring cases.
 
@@ -1395,7 +1395,7 @@ const isPalindrome = (str) => {
 };
 ```
 
-## **Single Number**
+## **Single Number** <a name="Single-Number"></a>
 
 Given a non-empty array of integers nums, every element appears twice except for one. Find that single one.
 
@@ -1438,7 +1438,7 @@ const singleNumber = (nums) => {
 };
 ```
 
-## **Two Sum II**
+## **Two Sum II** <a name="Two-Sum-II"></a>
 
 Given an array of integers numbers that is already sorted in non-decreasing order, find two numbers such that they add up to a specific target number.
 
@@ -1497,7 +1497,7 @@ const twoSum2 = (nums, target) => {
 };
 ```
 
-## **Majority Element**
+## **Majority Element** <a name="Majority-Element"></a>
 
 Given an array nums of size n, return the majority element.
 
@@ -1556,7 +1556,7 @@ const findMajorityEl_2 = (nums) => {
 };
 ```
 
-## **Factorial Trailing Zeroes**
+## **Factorial Trailing Zeroes** <a name="Factorial-Trailing-Zeroes"></a>
 
 Given an integer n, return the number of trailing zeroes in n!.
 
